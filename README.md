@@ -23,7 +23,7 @@ Each file contains a few records of customer data (in newline delimited json for
 3. Load the file customers_3.json into the table using a streaming insert.
     * Note: As before, the file customers_3.json includes another schema change.
 
-## Use the following instructions to achive the solutions
+## Use the following instructions to achieve the solutions
 
     * You need to have python & Jupyter lab or suitable python editor installed in your system.
 
