@@ -1,0 +1,141 @@
+[
+  {
+    "name": "_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "index",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "guid",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "isActive",
+    "type": "BOOLEAN",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "balance",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "picture",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "age",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "eyeColor",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "gender",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "company",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "email",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "phone",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "address",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "about",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "registered",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "latitude",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "longitude",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "tags",
+    "type": "STRING",
+    "mode": "REPEATED"
+  },
+  {
+    "name": "friends",
+    "type": "RECORD",
+    "mode": "REPEATED",
+    "fields": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "name",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      }
+    ]
+  },
+  {
+    "name": "foes",
+    "type": "RECORD",
+    "mode": "REPEATED",
+    "fields": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "name",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      }
+    ]
+  },
+  {
+    "name": "greeting",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "favoriteFruit",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

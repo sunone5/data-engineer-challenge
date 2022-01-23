@@ -1,0 +1,30 @@
+syntax = "proto2";
+
+message Customers_1_Message {
+
+    message Friends {
+        optional uint32 id = 1;
+        optional string name = 2;
+    }
+
+    optional string _id = 1;
+    optional uint32 index = 2;
+    optional string guid = 3;
+    optional bool isActive = 4;
+    optional uint32 age = 5;
+    optional string eyeColor = 6;
+    optional string name = 7;
+    optional string gender = 8;
+    optional string company = 9;
+    optional string email = 10;
+    optional string phone = 11;
+    optional string address = 12;
+    optional string about = 13;
+    optional string registered = 14;
+    optional float latitude = 15;
+    optional float longitude = 16;
+    repeated string tags = 17;
+    repeated Friends friends = 18;
+    optional string greeting = 19;
+    optional string favoriteFruit = 20;
+}
